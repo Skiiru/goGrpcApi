@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package api;
+
+option go_package = "internal/pkg/api";
+
+service ApiService {
+  rpc Method(MethodRequest) returns (MethodResponse) {}
+}
+
+message MethodRequest {
+  string message = 1;
+}
+
+message MethodResponse {
+  string result = 1;
+}
