@@ -2,7 +2,7 @@ package service
 
 import (
 	"context"
-	"grpcApi/api"
+	"grpcApi/pkg/api"
 )
 
 type Server struct {

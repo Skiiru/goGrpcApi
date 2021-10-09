@@ -1,4 +1,4 @@
-module grpApi
+module grpcApi
 
 go 1.17
 
