@@ -2,7 +2,7 @@ package service
 
 import (
 	"context"
-	"goGrpcApi/pkg/api"
+	"github.com/Skiiru/goGrpcApi/pkg/api"
 )
 
 type Server struct {

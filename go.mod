@@ -1,4 +1,4 @@
-module goGrpcApi
+module github.com/Skiiru/goGrpcApi
 
 go 1.17
 
