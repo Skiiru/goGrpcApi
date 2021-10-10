@@ -1,9 +1,9 @@
 package main
 
 import (
+	"goGrpcApi/pkg/api"
+	"goGrpcApi/pkg/service"
 	"google.golang.org/grpc"
-	"grpcApi/pkg/api"
-	"grpcApi/pkg/service"
 	"log"
 	"net"
 )
